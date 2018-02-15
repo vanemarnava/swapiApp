@@ -6,26 +6,37 @@
 	box-sizing: border-box;
 }
 
+/*estilo body*/
 body{
-	background-color: #000;
+	/*background-color: #000;*/
+	background-image: url(../img/fondo.jpg);
 }
 
-.logo-star{
-	height: auto;
-	width: 300px;
+/*estilo logo*/
+.logo{
+	height: 30%;
+	width: 40%;
+	margin: 2em 0 1em 0;
 	text-align: center;
 }
 
-#title-text{
+/*estilo de titulos con descripcion de la api*/
+.title-text{
 	color: #fff;
+	margin: 0.5em 0 0 1em;
 }
 
-.content {
-	max-width: 800px;
+/*estilo "boton" donde esta la imagen*/
+button{
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
 }
 
-.characters img {
+.character img {
 	width: 100%;
-	margin: 10px;
+	margin: 5%;
 	cursor: pointer;
 }

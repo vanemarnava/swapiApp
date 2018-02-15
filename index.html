@@ -13,50 +13,76 @@
 </head>
 <body>
 
-	<!-- seccion de encabezado logo -->
+	<!-- modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-sm" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h1 class="modal-title" id="myModalLabel"></h1>
+	      </div>
+	      <div class="modal-body">
+				<!-- aqui va info -->
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- fin modal -->
+	<!-- seccion de encabezado logo y personajes -->
 	<section class="section-Head">
 		<div class="container-fluid">		
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3 id="title-text">SWAPI</h3>
-					<img class="logo-star" src="assets/img/1200px-Star_Wars_Logo.svg.png" alt="logoStarWars">
+					<img class="logo" src="assets/img/logo.png" alt="logoStarWars">
+					<h3 class="title-text">SWAPI</h3>
+					<h4 class="title-text">Presiona el personaje para ver su descripción</h4>
 				</div>
 			</div>
-			<div class="row characters">
+			<!-- PERSONAJES -->
+			<div class="row">
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/amidala.jpg" alt="logoStarWars">
+					<button class="character" value="1" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/luke.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/anakin.jpg" alt="logoStarWars">
+					<button class="character" value="2" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/c-3po.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/c-3po.jpg" alt="logoStarWars">
+					<button class="character" value="3" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/r2-d2.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/chewbacca.jpg" alt="logoStarWars">
+					<button class="character" value="4" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/darth-vader.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/darth-vader.jpg" alt="logoStarWars">
+					<button class="character" value="5" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/leia.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/han-solo.jpg" alt="logoStarWars">
+					<button class="character" value="6" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/owen-lars.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/leia.jpg" alt="logoStarWars">
+					<button class="character" value="7" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/beru-whitesun.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/luke.jpg" alt="logoStarWars">
+					<button class="character" value="8" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/r5-d4.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/r2-d2.jpg" alt="logoStarWars">
+					<button class="character" value="20" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/yoda.jpg" alt="logoStarWars"></button>
 				</div>
 				<div class="col-xs-6 col-md-3 text-center">
-					<img id="amidala" class="logo-star" src="assets/img/yoda.jpg" alt="logoStarWars">
+					<button class="character" value="10" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/obi-wan-kenobi.png" alt="logoStarWars"></button>
+				</div>
+				<div class="col-xs-6 col-md-3 text-center">
+					<button class="character" value="13" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/chewbacca.jpg" alt="logoStarWars"></button>
+				</div>
+				<div class="col-xs-6 col-md-3 text-center">
+					<button class="character" value="14" type="button" data-toggle="modal" data-target="#myModal"><img id="amidala" class="logo-star" src="assets/img/han-solo.jpg" alt="logoStarWars"></button>
 				</div>
 			</div>
 		</div>
 	</section>
-
+<!-- fin seccion  -->
 
 	<!-- scripts -->
 	<!-- enlace jquery -->
