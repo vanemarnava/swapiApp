@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #000;
+}
+
+.logo-star{
+	height: 20%;
+	width: 30%;
+	text-align: center;
+}
+
+#title-text{
+	color: #fff;
+}
