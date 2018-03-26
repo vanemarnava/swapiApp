@@ -1,5 +1,5 @@
 
-## SwapiApp
+# SwapiApp
 
 Es una aplicación que presionando al personaje y a través de un modal muestra los datos relevantes de los personajes de la saga Star Wars.
 
