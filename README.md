@@ -22,7 +22,9 @@ Para realizar esta web se utilizó:
 #### Ejemplo de Versión móvil
 ![Ejemplo / Versión-movil ](assets/img/paraReadme/captura-movil.jpg)
 
-Autoras
--------
+### Autoras
  
 [*Carol Sepúlveda*](https://github.com/carol-solivos) & [*Vanessa Martínez*](https://github.com/vanemarnava)
+
+### Desarrollado para 
+[*Laboratoria*](http://www.laboratoria.la/)
