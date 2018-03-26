@@ -24,7 +24,7 @@ Para realizar esta web se utilizó:
 
 ### Autoras
  
-[*Carol Sepúlveda*](https://github.com/carol-solivos) & [*Vanessa Martínez*](https://github.com/vanemarnava)
+[*Vanessa Martinez*](https://github.com/vanemarnava) & [*Carol Sepulveda*](https://github.com/carol-solivos)
 
 ### Desarrollado para 
 [*Laboratoria*](http://www.laboratoria.la/)
