@@ -14,7 +14,7 @@ Para realizar esta web se utilizó:
 * Api SWAPI
 
 #### Ejemplo de Versión web
-![Ejemplo / Versión-web ](assets/img/paraReadme/captura1.jpg)
+![captura1](https://user-images.githubusercontent.com/32282202/37886029-dd615b1c-308e-11e8-82ed-065f11908b44.jpg)
 
 #### Ejemplo de Versión web mostrando datos del personaje
 ![Ejemplo / Versión-web-modal ](assets/img/paraReadme/captura2.jpg)
